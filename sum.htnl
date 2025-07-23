@@ -9,7 +9,7 @@ function readFileAsync(file, encoding) {
     });
 }
 
-async function readFiles() {
+async function readFiles() 
     const files = ['a.txt', 'b.txt', 'c.txt'];
     let totalChars = 0;
 
